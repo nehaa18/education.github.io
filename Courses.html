@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+          <a href="index.html"><img src="../eduford_img/logo.png"></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="HideMenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="aboutus.html">ABOUT</a></li>
+              <li><a href="Courses.html">COURSES</a></li>
+              <li><a href="blogs.html">BLOGS</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-ellipsis-v" onclick="ShowMenu()"></i>
+
+        </nav>
+        <div class="text-box">
+            <h1>Our Courses</h1>
+      </section> 
+      <!---Courses-->
+      <section class="course">
+         <h1>Courses We Offer</h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <div class="row">
+          <div class="course-col">
+              <h3>Intermediate</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, earum in fugiat omnis quos neque quasi! Eligendi sapiente vel nisi!</p>
+          </div>
+          <div class="course-col">
+            <h3>Degrees</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, earum in fugiat omnis quos neque quasi! Eligendi sapiente vel nisi!</p>
+        </div>
+        <div class="course-col">
+            <h3>Post-Graduation</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, earum in fugiat omnis quos neque quasi! Eligendi sapiente vel nisi!</p>
+        </div>
+      </div>
+      </section>
+      <!--Facilities-->
+      <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="../eduford_img/library.png">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi aut dicta velit repellendus.</p>
+            </div>
+            <div class="facilities-col">
+               <img src="../eduford_img/basketball.png">
+               <h3>Large Playgrounds</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi aut dicta velit repellendus.</p>
+           </div>
+           <div class="facilities-col">
+               <img src="../eduford_img/cafeteria.png">
+               <h3>Healthy and Tasty</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi aut dicta velit repellendus.</p>
+           </div>
+        </div>
+     </section>
+     <!--Footer-->
+    <section class="footer">
+        <h3>About Us</h3>
+        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti<br> quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,</p>
+         <div class="icons">
+             <i class="fa fa-facebook"></i>
+             <i class="fa fa-twitter"></i>
+             <i class="fa fa-linkedin"></i>
+             <i class="fa fa-instagram"></i>
+         </div>
+    </section>
+     <!---Javascript for menu toggle-->>
+      <script>
+          var navLinks=document.getElementById("navLinks");
+             function ShowMenu()
+             {
+                 navLinks.style.right="0";
+             }
+             function HideMenu()
+             {
+                 navLinks.style.right="-200px";
+             }
+      </script>
+
+</div>
+</body>
+</html>

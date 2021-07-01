@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+          <a href="index.html"><img src="../eduford_img/logo.png"></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="HideMenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="aboutus.html">ABOUT</a></li>
+              <li><a href="Courses.html">COURSES</a></li>
+              <li><a href="blogs.html">BLOGS</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-ellipsis-v" onclick="ShowMenu()"></i>
+
+        </nav>
+        <div class="text-box">
+            <h1>About Us</h1>
+      </section> 
+      <!--About Us Section-->
+      <section class="about-us">
+      <div class="row">
+          <div class="about-col">
+              <h1>We Are World's Largest University</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <a href="#" class="hero-btn red-btn">Explore Now</a>
+            </div>
+            <div class="about-col">
+                <img src="../eduford_img/about.jpg">
+            </div>
+      </div>
+      </section>>
+       <!--Footer-->
+    <section class="footer">
+        <h3>About Us</h3>
+        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti<br> quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,</p>
+         <div class="icons">
+             <i class="fa fa-facebook"></i>
+             <i class="fa fa-twitter"></i>
+             <i class="fa fa-linkedin"></i>
+             <i class="fa fa-instagram"></i>
+         </div>
+    </section>
+    <!---Javascript for menu toggle-->>
+    <script>
+        var navLinks=document.getElementById("navLinks");
+           function ShowMenu()
+           {
+               navLinks.style.right="0";
+           }
+           function HideMenu()
+           {
+               navLinks.style.right="-200px";
+           }
+    </script>
+
+</div>
+</body>
+</html>
